@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+
+    <!-- this code is little messy but I try my best. I hope my next project are better than these.  -->
+
     <!-- nav start -->
 
     <nav class="nav-main">
@@ -33,11 +36,11 @@
       </div>
       <div class="nav-box-2">
         <ul class="nav-box-2-sh1">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Help</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="nav-box-2-sh2" id="nav-control-open">
           <i class="fa-solid fa-bars"></i>
@@ -49,11 +52,11 @@
             <i class="fa-solid fa-xmark"></i>
           </div>
           <ul class="">
-            <a href="" style="border-top: 1px solid gray">Home</a>
-            <a href="">About</a>
-            <a href="">Service</a>
-            <a href="">Contact</a>
-            <a href="">Help</a>
+            <li><a href="#home" style="border-top: 1px solid gray">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -62,7 +65,7 @@
     <!-- nav end -->
     <!-- sectionA start -->
 
-    <section class="SA_container">
+    <section class="SA_container" id="home">
       <div class="SA_context">
         <h1 class="fw-bold">
           I'm <span style="color: #fff"> Monkey D Luffy </span>
@@ -79,7 +82,7 @@
     <!-- sectionB start -->
 
     <section class="SB_container">
-      <div class="SB_header">
+      <div class="SB_header" id="about">
         <h1>About <span style="color: red">Us</span></h1>
       </div>
       <div class="SB_container_box">
@@ -111,8 +114,8 @@
     <!-- sectionC start -->
 
     <section class="SC_container">
-      <div class="SC_header">
-        <h1>MY <span style="color: black">Portfolio</span></h1>
+      <div class="SC_header" id="project">
+        <h1>MY <span style="color: black"> Portfolio</span></h1>
       </div>
       <div class="SC_container_box">
         <div class="SC_img">
@@ -130,8 +133,9 @@
     <!-- sectionC end -->
 
     <!-- sectionD start -->
+
     <section class="SD_container">
-      <div class="SD_header">
+      <div class="SD_header" id="service">
         <h1>MY <span style="color: black">Service</span></h1>
       </div>
       <div class="SD_container_box">
@@ -175,12 +179,13 @@
         </div>
       </div>
     </section>
+
     <!-- sectionD end -->
 
     <!-- section0 start -->
 
     <div class="section0">
-      <div class="S0header">
+      <div class="S0header" id="contact">
         <h1>Contact <span style="color: red">Us</span></h1>
       </div>
       <div class="S0container">
@@ -218,7 +223,6 @@
         </div>
         <div class="S0right">
           <form>
-            <!-- <h1>Send Message</h1> -->
             <div class="S0_name_container">
               <div class="S0_name">
                 <input

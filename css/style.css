@@ -28,6 +28,7 @@
   background-color: black;
   border-bottom: 1px solid rgba(255, 255, 255, 0.747);
 }
+
 .nav-box-2-sh2 i {
   font-size: 25px;
   padding-right: 15px;
@@ -131,6 +132,7 @@
   color: red;
   font-size: 20px;
 }
+
 @media screen and (max-width: 500px) {
   .SA_container {
     height: 65vh;
@@ -188,13 +190,16 @@
   border-radius: 4px;
   box-shadow: 5px 5px black;
 }
+
 /* SB_showhide */
+
 .SB_showhide_1 {
   display: block;
 }
 .SB_showhide_2 {
   display: none;
 }
+
 @media screen and (max-width: 800px) {
   /* SB_showhide */
   .SB_showhide_1 {
@@ -229,6 +234,7 @@
     margin-bottom: 10px;
   }
 }
+
 @media screen and (max-width: 550px) {
   .SB_img {
     width: 85%;
@@ -247,6 +253,7 @@
     padding: 0px 15px;
   }
 }
+
 @media screen and (max-width: 550px) {
   .SB_img {
     width: 90%;
@@ -265,6 +272,7 @@
     padding: 0px 1px;
   }
 }
+
 /* sectionB end*/
 
 /* sectionD start */
@@ -347,6 +355,7 @@
     background-color: rgba(0, 0, 0, 0.295);
   }
 }
+
 @media screen and (max-width: 600px) {
   .SD_box_left {
     width: 80%;
@@ -358,6 +367,7 @@
     background-color: rgba(0, 0, 0, 0.295);
   }
 }
+
 @media screen and (max-width: 480px) {
   .SD_box_left {
     width: 90%;
@@ -367,6 +377,7 @@
     width: 330px;
   }
 }
+
 @media screen and (max-width: 430px) {
   .SD_box_left {
     width: 90%;
